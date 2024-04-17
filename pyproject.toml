@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ai-api-services"
+version = "0.1.0"
+description = ""
+authors = ["SP85691 <suryapratap8562@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+passlib = {extras = ["email"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-multipart = "^0.0.9"
+python-dotenv = "^1.0.1"
+pydantic = {extras = ["email"], version = "^2.7.0"}
+argon2-cffi = "^23.1.0"
+jinja2 = "^3.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
